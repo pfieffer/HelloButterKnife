@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">HelloButterKnife</string>
+
+    <string name="default_greeting">Some Greeting!!!</string>
+    <string name="good_morning">Good Morning!!!</string>
+    <string name="good_afternoon">Good Afternoon!!!</string>
+    <string name="good_evening">Good Evening!!!</string>
+    <string name="good_night">Good Night!!!</string>
+
 </resources>
