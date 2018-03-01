@@ -86,9 +86,9 @@ public class MainActivity extends AppCompatActivity {
         Log.d("hrs ", String.valueOf(hrs));
         if (hrs < 12) {
             greetingTV.setText(goodMorning);
-        } else if (hrs > 12 && hrs < 15) {
+        } else if (hrs >= 12 && hrs < 15) {
             greetingTV.setText(goodAfterNoon);
-        } else if (hrs > 15 && hrs < 19) {
+        } else if (hrs >= 15 && hrs <= 19) {
             greetingTV.setText(goodEvening);
         } else if (hrs > 19) {
             Log.d("I am ", "here");
